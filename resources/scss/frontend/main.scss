@@ -1,0 +1,20 @@
+@import 'abstracts/variables';
+
+/* Layout */
+@import 'layout/header';
+@import 'layout/footer';
+
+/* Pages */
+@import 'pages/team';
+@import 'pages/testimonials';
+@import 'pages/contact';
+@import 'pages/pricing';
+@import 'pages/quote';
+@import 'pages/about';
+@import 'pages/services';
+@import 'pages/projects';
+
+/* Sections */
+@import 'sections/slider';
+@import 'sections/impact';
+@import 'sections/why-choose-us';

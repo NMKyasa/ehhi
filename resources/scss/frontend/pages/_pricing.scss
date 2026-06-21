@@ -1,0 +1,215 @@
+/* ============================================
+   SHASTA PRICING SECTION
+   ============================================ */
+
+/* ===== Pricing Section ===== */
+
+.container-xxl.py-5 {
+    padding-top: 72px !important;
+    padding-bottom: 72px !important;
+    background: $white;
+}
+
+/* ===== Header ===== */
+
+.text-center .bg-primary {
+    background: $primary !important;
+    width: 48px !important;
+    height: 2px !important;
+    margin-bottom: 20px !important;
+    border-radius: 0;
+}
+
+.text-center .display-5 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: $secondary;
+    letter-spacing: -0.5px;
+    margin-bottom: 48px !important;
+}
+
+/* ===== Grid gap ===== */
+
+.row.g-4 {
+    gap: 20px 0;
+}
+
+/* ===== Card base ===== */
+
+.card.h-100.border-0.shadow-sm {
+    border: 1px solid darken($light, 3%) !important;
+    border-radius: $radius-lg !important;
+    box-shadow: none !important;
+
+    transition:
+        border-color 0.2s ease,
+        transform 0.2s ease;
+
+    overflow: hidden;
+}
+
+.card.h-100.border-0.shadow-sm:hover {
+    border-color: darken($light, 12%) !important;
+    transform: translateY(-3px);
+}
+
+/* ===== Featured card ===== */
+
+.card.h-100.border-0.shadow-sm:has(.badge.bg-primary) {
+    border: 2px solid $primary !important;
+}
+
+/* ===== Most Popular badge ===== */
+
+.badge.bg-primary {
+    background: $primary !important;
+    color: $white !important;
+
+    font-size: 11px;
+    font-weight: 500;
+
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    padding: 7px 16px;
+
+    border-radius: 0;
+
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* ===== Card body ===== */
+
+.card-body {
+    padding: 24px !important;
+}
+
+/* ===== Service label ===== */
+
+.card-body small.text-primary {
+    font-size: 11px;
+    font-weight: 500;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: $primary !important;
+
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* ===== Plan title ===== */
+
+.card-body h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: $secondary;
+
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+/* ===== Subtitle ===== */
+
+.card-body .text-muted {
+    font-size: 13px;
+    color: lighten($text-color, 20%) !important;
+
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+/* ===== Divider ===== */
+
+.card-body hr {
+    border: none;
+    border-top: 1px solid $light;
+    margin: 16px 0;
+}
+
+/* ===== Price ===== */
+
+.card-body h2.text-primary {
+    font-size: 30px;
+    font-weight: 500;
+
+    color: $primary !important;
+
+    letter-spacing: -1px;
+
+    margin: 0 0 4px;
+}
+
+/* ===== Pricing period ===== */
+
+.card-body p {
+    font-size: 13px;
+    color: lighten($text-color, 33%);
+
+    margin: 0;
+}
+
+/* ===== Description text ===== */
+
+.card-body p:last-child {
+    font-size: 13px;
+    color: lighten($text-color, 7%);
+
+    line-height: 1.7;
+}
+
+/* ===== Card footer ===== */
+
+.card-footer.bg-white.border-0 {
+    padding: 0 24px 24px !important;
+
+    background: $white !important;
+
+    border: none !important;
+}
+
+/* ===== CTA button ===== */
+
+.card-footer .btn.btn-primary.w-100 {
+    display: block;
+    width: 100%;
+
+    padding: 11px 0;
+
+    border-radius: $radius-sm;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    text-align: center;
+    text-decoration: none;
+
+    background: $light !important;
+    color: $secondary !important;
+
+    border: 1px solid darken($light, 8%) !important;
+
+    transition:
+        background $transition-fast,
+        color $transition-fast,
+        border-color $transition-fast;
+}
+
+.card-footer .btn.btn-primary.w-100:hover {
+    background: $primary !important;
+    color: $white !important;
+    border-color: $primary !important;
+}
+
+/* ===== Featured card button ===== */
+
+.card:has(.badge.bg-primary)
+.card-footer
+.btn.btn-primary.w-100 {
+    background: $primary !important;
+    color: $white !important;
+    border-color: $primary !important;
+}
