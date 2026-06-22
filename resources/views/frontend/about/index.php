@@ -66,7 +66,7 @@
     <!-- Impact End -->
 
 
-    <!-- About Start -->
+            <!-- About Start -->
     <div class="container-fluid about-section my-5 px-lg-0">
         <div class="container about px-lg-0">
             <div class="row g-0 mx-lg-0 ab-grid-row">
@@ -74,7 +74,7 @@
                     <div class="position-relative h-100 ab-img-wrap">
                         <img
                             class="position-absolute img-fluid w-100 h-100 ab-main-img"
-                            src="/shasta/public/<?= htmlspecialchars($aboutImage['file_path'] ?? 'assets/frontend/img/about.jpg') ?>"
+                            src="/ehhi/public/<?= htmlspecialchars($aboutImage['file_path'] ?? 'assets/frontend/img/family_planning_awareness2.jpeg') ?>"
                             style="object-fit: cover;"
                             alt="<?= htmlspecialchars($settings['about_title'] ?? 'About Us') ?>"
                         >
@@ -83,7 +83,7 @@
                             <div class="ab-img-badge-icon"><i class="fa fa-shield-alt"></i></div>
                             <div class="ab-img-badge-text">
                                 <strong><?= (int)($settings['about_experience_years'] ?? 0) ?>+ Years</strong>
-                                Trusted Security Partner
+                                Existence
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                                     </div>
                                     <div class="ms-4">
                                         <h2 class="mb-1">100+</h2>
-                                        <p class="fw-medium text-primary mb-0">Clients Reached</p>
+                                        <p class="fw-medium text-primary mb-0">Families Impacted</p>
                                     </div>
                                 </div>
                             </div>

@@ -107,14 +107,14 @@
                 ? htmlspecialchars(
                     $settings['site_name']
                 )
-                : 'SHASTA'
+                : 'EHHI'
             ?>
 
         </span>
 
     </a>
 
-    <button
+    <!-- <button
         type="button"
         class="navbar-toggler"
         data-bs-toggle="collapse"
@@ -123,7 +123,7 @@
 
         <span class="navbar-toggler-icon"></span>
 
-    </button>
+    </button> -->
 
     <div
         class="collapse navbar-collapse"
@@ -150,24 +150,24 @@
                 href="<?= url('services') ?>"
                 class="nav-item nav-link <?= str_contains($currentUri, 'services') ? 'active' : '' ?>"
             >
-                Services
+                What We Do
             </a>
 
             <a
-                href="<?= url('projects') ?>"
-                class="nav-item nav-link <?= str_contains($currentUri, 'projects') ? 'active' : '' ?>"
+                href="<?= url('team') ?>"
+                class="nav-item nav-link <?= str_contains($currentUri, 'team') ? 'active' : '' ?>"
             >
-                Projects
+                Our Team
             </a>
 
             <a
-                href="<?= url('pricing') ?>"
-                class="nav-item nav-link <?= str_contains($currentUri, 'pricing') ? 'active' : '' ?>"
+                href="<?= url('testimonials') ?>"
+                class="nav-item nav-link <?= str_contains($currentUri, 'testimonials') ? 'active' : '' ?>"
             >
-                Pricing
+                Testimonials
             </a>
 
-            <div class="nav-item dropdown">
+            <!-- <div class="nav-item dropdown">
 
                 <a
                     href="#"
@@ -207,7 +207,7 @@
 
                 </div>
 
-            </div>
+            </div> -->
 
             <a
                 href="<?= url('contact') ?>"
@@ -219,14 +219,14 @@
         </div>
 
         <!-- CTA Button -->
-        <a
-            href="<?= url('quote') ?>"
+        <!-- <a
+            href=""
             class="btn btn-primary py-2 px-4 ms-lg-3"
         >
 
             Get Free Quote
 
-        </a>
+        </a> -->
 
     </div>
 

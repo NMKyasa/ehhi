@@ -7,7 +7,7 @@
             <div class="col-sm-6">
 
                 <h1 class="m-0">
-                    Add Service
+                    Add Program
                 </h1>
 
             </div>
@@ -139,7 +139,7 @@
                     <div class="form-group">
 
                         <label>
-                            Service Images
+                            Program Images
                             <span class="text-danger">*</span>
                         </label>
 
@@ -186,7 +186,7 @@
 
                             <label class="form-check-label">
 
-                                Featured Service
+                                Featured Program
 
                             </label>
 
@@ -274,7 +274,7 @@
                         type="submit"
                         class="btn btn-primary">
 
-                        Save Service
+                        Save Program
 
                     </button>
 

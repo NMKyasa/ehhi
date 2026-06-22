@@ -4,9 +4,14 @@
 
             <div class="text-center wow fadeInUp sv-head">
                 <div class="sv-tag">
-                    <span></span><em>Our Services</em><span></span>
+                    <span></span><em>What We Do</em><span></span>
                 </div>
-                <h1 class="display-5 mb-0 sv-title">Comprehensive Security Solutions</h1>
+                <h1 class="display-5 mb-0 sv-title">Programs That Empower Girls and Women</h1>
+                <p class="sv-subtitle mt-3">
+                    Through education, mentorship, health awareness, and community engagement,
+                    we equip girls and women with the knowledge, support, and opportunities
+                    they need to thrive.
+                </p>
             </div>
 
             <div class="owl-carousel services-carousel">
@@ -40,10 +45,17 @@
                 <?php endforeach; ?>
             </div>
 
+            <!-- CTA -->
             <div class="text-center mt-5 sv-cta-wrap">
-                <a href="<?= url('quote') ?>" class="btn sv-cta-btn">
-                    Request a Free Quote
+
+                <p class="mb-4">
+                    Together, we can create healthier futures for girls and women across Uganda.
+                </p>
+
+                <a href="<?= url('contact') ?>" class="btn sv-cta-btn">
+                    Get Involved
                 </a>
+
             </div>
 
         </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Admin Login - SHASTA CO. LTD</title>
+    <title>Admin Login - EHHI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="<?= asset('assets/auth/img/favicon-32x32.png') ?>" type="image/x-icon">
     
     <!-- Style new CSS -->
-    <link href="/shasta/public/assets/auth/css/style_new.css" rel="stylesheet">
+    <link href="/ehhi/public/assets/auth/css/style_new.css" rel="stylesheet">
     
 </head>
 <body>
@@ -28,16 +28,16 @@
                     <?php endif; ?>
                 </div>
                 <div class="lg-logo-text">
-                    <?= strtoupper(htmlspecialchars($settings['site_name'] ?? 'SHASTA')) ?> <span>ADMIN</span>
+                    <?= strtoupper(htmlspecialchars($settings['site_name'] ?? 'EHHI')) ?> <span>ADMIN</span>
                 </div>
             </div>
 
             <div class="lg-side-content">
                 <h2>Secure Access to Your Dashboard</h2>
-                <p>Manage services, projects, quotes and content for <?= htmlspecialchars($settings['site_name'] ?? 'Shasta Company Limited') ?> from one place.</p>
+                <p>Manage services, projects, quotes and content for <?= htmlspecialchars($settings['site_name'] ?? 'EMPOWER HER HEALTH INITIATIVE (EHHI)') ?> from one place.</p>
             </div>
 
-            <div class="lg-side-foot">&copy; <?= date('Y') ?> <?= htmlspecialchars($settings['site_name'] ?? 'Shasta Company Limited') ?></div>
+            <div class="lg-side-foot">&copy; <?= date('Y') ?> <?= htmlspecialchars($settings['site_name'] ?? 'EMPOWER HER HEALTH INITIATIVE (EHHI)') ?></div>
         </div>
 
         <!-- Right side form -->
@@ -66,7 +66,7 @@
                             type="email"
                             name="email"
                             id="email"
-                            placeholder="you@shasta.com"
+                            placeholder="you@ehhi.com"
                             required
                             autofocus
                         >

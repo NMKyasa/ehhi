@@ -7,7 +7,7 @@
             <div class="col-sm-6">
 
                 <h1 class="m-0">
-                    Edit Service
+                    Edit Program
                 </h1>
 
             </div>
@@ -284,7 +284,7 @@
                         class="btn btn-primary"
                     >
 
-                        Update Service
+                        Update Program
 
                     </button>
 

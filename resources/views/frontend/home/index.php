@@ -161,7 +161,7 @@
                     <div class="position-relative h-100 ab-img-wrap">
                         <img
                             class="position-absolute img-fluid w-100 h-100 ab-main-img"
-                            src="/shasta/public/<?= htmlspecialchars($aboutImage['file_path'] ?? 'assets/frontend/img/shasta-home-protection-services.png') ?>"
+                            src="/ehhi/public/<?= htmlspecialchars($aboutImage['file_path'] ?? 'assets/frontend/img/family_planning_awareness2.jpeg') ?>"
                             style="object-fit: cover;"
                             alt="<?= htmlspecialchars($settings['about_title'] ?? 'About Us') ?>"
                         >
@@ -170,7 +170,7 @@
                             <div class="ab-img-badge-icon"><i class="fa fa-shield-alt"></i></div>
                             <div class="ab-img-badge-text">
                                 <strong><?= (int)($settings['about_experience_years'] ?? 0) ?>+ Years</strong>
-                                Trusted Security Partner
+                                Existence
                             </div>
                         </div>
                     </div>
@@ -224,7 +224,7 @@
                                     </div>
                                     <div class="ms-4">
                                         <h2 class="mb-1">100+</h2>
-                                        <p class="fw-medium text-primary mb-0">Clients Reached</p>
+                                        <p class="fw-medium text-primary mb-0">Families Impacted</p>
                                     </div>
                                 </div>
                             </div>
@@ -244,15 +244,20 @@
     <!-- About End -->
 
 
-    <!-- Services Start -->
+<!-- Services Start -->
     <div class="container-xxl py-5 services-section">
         <div class="container">
 
             <div class="text-center wow fadeInUp sv-head">
                 <div class="sv-tag">
-                    <span></span><em>Our Services</em><span></span>
+                    <span></span><em>What We Do</em><span></span>
                 </div>
-                <h1 class="display-5 mb-0 sv-title">Comprehensive Security Solutions</h1>
+                <h1 class="display-5 mb-0 sv-title">Programs That Empower Girls and Women</h1>
+                <p class="sv-subtitle mt-3">
+                    Through education, mentorship, health awareness, and community engagement,
+                    we equip girls and women with the knowledge, support, and opportunities
+                    they need to thrive.
+                </p>
             </div>
 
             <div class="owl-carousel services-carousel">
@@ -286,10 +291,17 @@
                 <?php endforeach; ?>
             </div>
 
+            <!-- CTA -->
             <div class="text-center mt-5 sv-cta-wrap">
-                <a href="<?= url('quote') ?>" class="btn sv-cta-btn">
-                    Request a Free Quote
+
+                <p class="mb-4">
+                    Together, we can create healthier futures for girls and women across Uganda.
+                </p>
+
+                <a href="<?= url('contact') ?>" class="btn sv-cta-btn">
+                    Get Involved
                 </a>
+
             </div>
 
         </div>
@@ -304,13 +316,16 @@
                 <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 ps-lg-0">
                         <div class="ft-tag">
-                            <span></span><em>Why Choose Us</em>
+                            <span></span><em>Why EHHI</em>
                         </div>
-                        <h1 class="display-5 mb-4 ft-title">Security Built on Trust &amp; Excellence</h1>
+                        <h1 class="display-5 mb-4 ft-title">Empowering Girls Through Knowledge, Access & Support</h1>
                         <p class="mb-4 pb-2 ft-text">
-                            Shasta Security is a licensed Ugandan security company trusted by hospitals, retail chains, and corporate offices.
-                            We deliver reliable protection through certified guards, advanced surveillance systems, and 24/7 customer support.
-                            Our commitment to quality, innovation, and professionalism ensures clients enjoy peace of mind and measurable safety improvements.
+                            At Empower Her Health Initiative (EHHI), we believe that no girl
+                            or woman should be left behind on her journey toward health and
+                            wellness. We work directly within schools and communities to
+                            provide evidence-based health education, menstrual hygiene support,
+                            mentorship, and advocacy that empower girls and women to make
+                            informed choices and realize their full potential.
                         </p>
 
                         <div class="row g-3 ft-grid2">
@@ -318,8 +333,8 @@
                                 <div class="ft-item">
                                     <div class="ft-icon"><i class="fa fa-shield-alt"></i></div>
                                     <div>
-                                        <div class="ft-item-label">Trusted</div>
-                                        <div class="ft-item-title">Security</div>
+                                        <div class="ft-item-label">Evidence-Based</div>
+                                        <div class="ft-item-title">Programs</div>
                                     </div>
                                 </div>
                             </div>
@@ -327,8 +342,8 @@
                                 <div class="ft-item">
                                     <div class="ft-icon"><i class="fa fa-award"></i></div>
                                     <div>
-                                        <div class="ft-item-label">Quality</div>
-                                        <div class="ft-item-title">Services</div>
+                                        <div class="ft-item-label">Compassionate</div>
+                                        <div class="ft-item-title">Support</div>
                                     </div>
                                 </div>
                             </div>
@@ -336,8 +351,8 @@
                                 <div class="ft-item">
                                     <div class="ft-icon"><i class="fa fa-video"></i></div>
                                     <div>
-                                        <div class="ft-item-label">Smart</div>
-                                        <div class="ft-item-title">Systems</div>
+                                        <div class="ft-item-label">Community-Led</div>
+                                        <div class="ft-item-title">Approach</div>
                                     </div>
                                 </div>
                             </div>
@@ -345,8 +360,8 @@
                                 <div class="ft-item">
                                     <div class="ft-icon"><i class="fa fa-headset"></i></div>
                                     <div>
-                                        <div class="ft-item-label">24/7 Hours</div>
-                                        <div class="ft-item-title">Support</div>
+                                        <div class="ft-item-label">Lasting</div>
+                                        <div class="ft-item-title">Impact</div>
                                     </div>
                                 </div>
                             </div>
@@ -358,14 +373,14 @@
                     <div class="position-relative h-100 ft-img-wrap">
                         <img
                             class="position-absolute img-fluid w-100 h-100"
-                            src="<?= asset('assets/frontend/img/shasta-home-protection-services.png') ?>"
+                            src="<?= asset('assets/frontend/img/ehhi_family_planning_awareness1.jpeg') ?>"
                             style="object-fit: cover;"
                             alt="Shasta Home Protection Services"
                         >
                         <div class="ft-img-frame"></div>
                         <div class="ft-img-badge">
                             <i class="fa fa-check-circle"></i>
-                            <div class="ft-img-badge-text"><strong>Licensed</strong>&amp; Certified</div>
+                            <div class="ft-img-badge-text"><strong>No Girl</strong><br>Left Behind</div>
                         </div>
                     </div>
                 </div>
@@ -376,226 +391,110 @@
     <!-- Feature End -->
 
 
-    <!-- Projects Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
 
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <span class="projects-section-label">Portfolio</span>
-                <h1 class="display-5 mb-5">Our Projects</h1>
-            </div>
+    <!-- Contact Start -->
+    <div class="container-fluid contact-section overflow-hidden px-lg-0">
+        <div class="container contact px-lg-0">
+            <div class="row g-0 mx-lg-0 ct-row">
 
-            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="col-12 text-center">
-                    <ul class="list-inline mb-0" id="portfolio-flters">
-
-                        <li class="mx-1 active" data-filter="*">
-                            All
-                        </li>
-
-                        <?php foreach ($categories as $category): ?>
-                            <li
-                                class="mx-1"
-                                data-filter="<?= htmlspecialchars($category['slug']) ?>"
-                            >
-                                <?= htmlspecialchars($category['name']) ?>
-                            </li>
-                        <?php endforeach; ?>
-
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row g-4 portfolio-container mt-2">
-
-                <?php foreach ($projects as $project): ?>
-
-                    <div
-                        class="col-lg-4 col-md-6 portfolio-item <?= htmlspecialchars($project['category_slug'] ?? '') ?> wow fadeInUp"
-                        data-wow-delay="0.1s"
-                    >
-                        <!-- Entire card is one link for full clickability -->
-                        <a
-                            href="<?= url('projects/' . $project['slug']) ?>"
-                            class="portfolio-inner"
-                            aria-label="View <?= htmlspecialchars($project['title']) ?>"
-                        >
-
-                            <?php if (!empty($project['file_path'])): ?>
-                                <div class="portfolio-img-wrap">
-                                    <img
-                                        class="img-fluid w-100"
-                                        src="<?= url($project['file_path']) ?>"
-                                        alt="<?= htmlspecialchars($project['title']) ?>"
-                                        loading="lazy"
-                                    >
-                                </div>
-                            <?php endif; ?>
-
-                            <!-- Always-visible card footer -->
-                            <div class="portfolio-card-body">
-                                <p class="portfolio-cat">
-                                    <?= htmlspecialchars($project['category_name'] ?? 'Project') ?>
-                                </p>
-                                <h5 class="portfolio-title">
-                                    <?= htmlspecialchars($project['title']) ?>
-                                </h5>
-                            </div>
-
-                            <!-- Hover overlay -->
-                            <div class="portfolio-text">
-
-                                <p class="text-primary mb-2">
-                                    <?= htmlspecialchars($project['category_name'] ?? 'Project') ?>
-                                </p>
-
-                                <h5 class="lh-base mb-3">
-                                    <?= htmlspecialchars($project['title']) ?>
-                                </h5>
-
-                                <div class="d-flex">
-
-                                    <?php if (!empty($project['file_path'])): ?>
-                                        <!-- Stop propagation so lightbox doesn't also navigate to project -->
-                                        <span
-                                            class="btn btn-square btn-primary rounded-circle mx-1 portfolio-lightbox-btn"
-                                            data-lightbox-src="<?= url($project['file_path']) ?>"
-                                            data-lightbox="portfolio"
-                                            title="Quick view"
-                                            role="button"
-                                        >
-                                            <i class="fa fa-eye"></i>
-                                        </span>
-                                    <?php endif; ?>
-
-                                    <span
-                                        class="btn btn-square btn-primary rounded-circle mx-1"
-                                        title="View project"
-                                        role="button"
-                                    >
-                                        <i class="fa fa-link"></i>
-                                    </span>
-
-                                </div>
-
-                            </div>
-
-                        </a>
-                    </div>
-
-                <?php endforeach; ?>
-
-            </div>
-        </div>
-    </div>
-    <!-- Projects End -->
-
-
-
-    <!-- Quote Start -->
-    <div class="container-fluid quote-section overflow-hidden px-lg-0">
-        <div class="container quote px-lg-0">
-            <div class="row g-0 mx-lg-0 qt-row">
-
-                <div class="col-lg-6 ps-lg-0 qt-img-col">
-                    <div class="position-relative h-100 qt-img-wrap">
-                        <img
-                            class="position-absolute img-fluid w-100 h-100"
-                            src="<?= asset('assets/frontend/img/shasta-warehouse-protection-services.png') ?>"
-                            style="object-fit: cover;"
-                            alt="Request a Quote"
-                        >
-                        <div class="qt-img-overlay"></div>
-                        <div class="qt-img-frame"></div>
-
-                        <div class="qt-badges">
-                            <div class="qt-badge"><i class="fa fa-bolt"></i> Fast Response</div>
-                            <div class="qt-badge"><i class="fa fa-tag"></i> No Obligation</div>
+                <div class="col-lg-5 contact-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <div class="ct-tag">
+                            <span></span><em>Contact Us</em>
                         </div>
-
-                        <div class="qt-img-text">
-                            <h3>Tailored to Your Needs</h3>
-                            <p>Whether for a home, business, institution, or special event — get a quote built around your specific requirements.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 pe-lg-0">
-                        <div class="qt-tag">
-                            <span></span><em>Get Started</em>
-                        </div>
-                        <h1 class="display-5 mb-4 qt-title">Request Your Free Quote</h1>
-                        <p class="mb-4 pb-2 qt-text">
-                            Tell us about your security requirements and our team will prepare a tailored solution for your home, business, institution, or project.
-                            Submit your request and we will get back to you with a professional quotation.
+                        <h1 class="display-5 mb-4 ct-title">Let's Create Healthier Futures Together</h1>
+                        <p class="mb-4 ct-text">
+                            Whether you would like to partner with us, volunteer, support our programmes,
+                            request more information, or simply learn more about our work, we'd love to hear
+                            from you. Together, we can ensure that no girl or woman is left behind on her
+                            journey toward health and wellness.
                         </p>
 
+                        <div class="ct-info-list">
+                            <div class="ct-info-item">
+                                <div class="ct-info-icon"><i class="fa fa-map-marker-alt"></i></div>
+                                <div>
+                                    <div class="ct-info-label">Location</div>
+                                    <div class="ct-info-value"><?= htmlspecialchars($settings['office_address'] ?? '') ?></div>
+                                </div>
+                            </div>
+                            <div class="ct-info-item">
+                                <div class="ct-info-icon"><i class="fa fa-phone-alt"></i></div>
+                                <div>
+                                    <div class="ct-info-label">Phone</div>
+                                    <div class="ct-info-value"><?= htmlspecialchars($settings['phone_number'] ?? '') ?></div>
+                                </div>
+                            </div>
+                            <div class="ct-info-item">
+                                <div class="ct-info-icon"><i class="fa fa-envelope"></i></div>
+                                <div>
+                                    <div class="ct-info-label">Email</div>
+                                    <div class="ct-info-value"><?= htmlspecialchars($settings['company_email'] ?? '') ?></div>
+                                </div>
+                            </div>
+                            <div class="ct-info-item">
+                                <div class="ct-info-icon"><i class="far fa-clock"></i></div>
+                                <div>
+                                    <div class="ct-info-label">Working Hours</div>
+                                    <div class="ct-info-value"><?= htmlspecialchars($settings['working_hours'] ?? '') ?></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 pe-lg-0 ct-form-col py-5 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="ct-form-wrap">
+
                         <?php if (!empty($_SESSION['success'])): ?>
-                            <div class="qt-success">
+                            <div class="ct-success">
                                 <i class="fa fa-check-circle"></i>
                                 <?= $_SESSION['success'] ?>
                             </div>
                             <?php unset($_SESSION['success']); ?>
                         <?php endif; ?>
 
-                        <form method="POST" action="<?= url('quote') ?>" class="qt-form">
+                        <h3 class="mb-3">
+                            Send Us a Message
+                        </h3>
+
+                        <p class="mb-4 ct-form-text">
+                            We'd be happy to answer your questions and explore how we can work together.
+                        </p>
+                        <form method="POST" action="<?= url('contact') ?>" class="ct-form">
 
                             <input type="hidden" name="_token" value="<?= csrf_token() ?>">
 
                             <div class="row g-3">
 
-                                <div class="col-12 col-sm-6 qt-field">
-                                    <label>
-                                        Your Name
-                                        <span class="qt-required">*</span>
-                                    </label>
-                                    <input type="text" name="name" placeholder="Braham Grant" required>
+                                <div class="col-md-6 ct-field">
+                                    <label>Your Name</label>
+                                    <input type="text" name="name" placeholder="John Doe" required>
                                 </div>
 
-                                <div class="col-12 col-sm-6 qt-field">
-                                    <label>
-                                        Your Email
-                                        <span class="qt-required">*</span>
-                                    </label>
-                                    <input type="email" name="email" placeholder="brahamgrant@example.com" required>
+                                <div class="col-md-6 ct-field">
+                                    <label>Your Email</label>
+                                    <input type="email" name="email" placeholder="john@example.com" required>
                                 </div>
 
-                                <div class="col-12 col-sm-6 qt-field">
-                                    <label>Your Mobile <small>(Optional)</small></label>
+                                <div class="col-md-6 ct-field">
+                                    <label>Phone Number</label>
                                     <input type="number" name="phone" placeholder="07XX XXX XXX">
                                 </div>
 
-                                <!-- Services Dropdown -->
-                                <div class="col-12 col-sm-6 qt-field">
-                                    <label>Service Needed <small>(Optional)</small></label>
-
-                                    <select name="service_id" class="qt-select">
-                                        <option value="">
-                                            I am not sure yet
-                                        </option>
-
-                                        <?php foreach ($services as $service): ?>
-
-                                            <option value="<?= $service['id'] ?>">
-
-                                                <?= htmlspecialchars($service['title']) ?>
-
-                                            </option>
-
-                                        <?php endforeach; ?>
-
-                                    </select>
+                                <div class="col-md-6 ct-field">
+                                    <label>Subject</label>
+                                    <input type="text" name="subject" placeholder="How can we help?">
                                 </div>
 
-                                <div class="col-12 qt-field">
-                                    <label>Your Requirements</label>
-                                    <textarea name="message" placeholder="Describe your requirements..." rows="5"></textarea>
+                                <div class="col-12 ct-field">
+                                    <label>Message</label>
+                                    <textarea name="message" placeholder="Leave a message here..." rows="5"></textarea>
                                 </div>
 
                                 <div class="col-12">
-                                    <button class="qt-submit" type="submit">
-                                        Request Free Quote <i class="fa fa-arrow-right"></i>
+                                    <button class="ct-submit" type="submit">
+                                        Send Message <i class="fa fa-arrow-right"></i>
                                     </button>
                                 </div>
 
@@ -608,7 +507,7 @@
             </div>
         </div>
     </div>
-    <!-- Quote End -->
+    <!-- Contact End -->
 
 
     <!-- Team Start -->

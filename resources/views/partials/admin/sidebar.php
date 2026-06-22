@@ -32,7 +32,7 @@ function isActive($path)
         >
 
         <span class="brand-text font-weight-light">
-            SHASTA CMS
+            EHHI CMS
         </span>
 
     </a>
@@ -178,7 +178,7 @@ function isActive($path)
 
                                 <i class="far fa-circle nav-icon"></i>
 
-                                <p>Services</p>
+                                <p>Programs</p>
 
                             </a>
 
@@ -187,18 +187,6 @@ function isActive($path)
 
                         <?php if (Authorization::can('projects.view')): ?>
 
-                        <li class="nav-item">
-
-                            <a href="<?= url('dashboard/projects') ?>"
-                                class="nav-link <?= isActive('/dashboard/projects') ?>">
-
-                                <i class="far fa-circle nav-icon"></i>
-
-                                <p>Projects</p>
-
-                            </a>
-
-                        </li>
                         <?php endif; ?>
 
                         <?php if (Authorization::can('categories.view')): ?>
@@ -217,18 +205,7 @@ function isActive($path)
                         <?php endif; ?>
 
                         <?php if (Authorization::can('pricing_items.view')): ?>
-                        <li class="nav-item">
-
-                            <a href="<?= url('dashboard/pricing') ?>"
-                                class="nav-link <?= isActive('/dashboard/pricing') ?>">
-
-                                <i class="far fa-circle nav-icon"></i>
-
-                                <p>Pricing</p>
-
-                            </a>
-
-                        </li>
+                        
                         <?php endif; ?>
 
                     </ul>

@@ -1,9 +1,9 @@
 /********** SHASTA Admin Sidebar **********/
 :root {
-    --primary: #E07820;
-    --secondary: #1A1A1A;
-    --light: #F0EDE4;
-    --dark: #1A1A1A;
+    --primary: #8E2E8D;
+    --secondary: #000000;
+    --light: #E8A426;
+    --dark: #000000;
     --sidebar-bg: #181818;
     --sidebar-bg-soft: #1f1f1f;
     --sidebar-text: #B8B5AE;
@@ -438,7 +438,7 @@
 
 .small-box.bg-info::before     { background: #3CA9D9; }
 .small-box.bg-success::before  { background: #4CAF7D; }
-.small-box.bg-warning::before  { background: #E07820; }
+.small-box.bg-warning::before  { background: #8E2E8D; }
 .small-box.bg-danger::before   { background: #D65A5A; }
 .small-box.bg-primary::before  { background: #4A6FA5; }
 .small-box.bg-secondary::before{ background: #8A8578; }
@@ -546,7 +546,7 @@
     vertical-align: middle;
     font-size: 0.98rem;
     color: var(--secondary);
-    border-color: #F0EDE4;
+    border-color: #E8A426;
 }
 
 .table.datatable.table-bordered td,

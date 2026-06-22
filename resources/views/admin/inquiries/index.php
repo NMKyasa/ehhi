@@ -45,7 +45,7 @@
 
             </a>
 
-            <a
+            <!-- <a
                 href="<?= url('dashboard/inquiries?type=quote') ?>"
                 class="btn btn-sm <?= $selectedType === 'quote'
                     ? 'btn-primary'
@@ -54,7 +54,7 @@
 
                 Quote Requests
 
-            </a>
+            </a> -->
 
         </div>
 

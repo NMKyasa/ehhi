@@ -3,7 +3,7 @@
 
     <!-- Back Button -->
     <a href="<?= url('services') ?>" class="sd-back">
-        <i class="fa fa-arrow-left"></i> Back to Services
+        <i class="fa fa-arrow-left"></i> Back to Programs
     </a>
 
     <!-- Service Hero -->
@@ -16,7 +16,7 @@
         <?php endif; ?>
         <div class="sh-hero-overlay"></div>
         <div class="sh-hero-content">
-            <div class="sh-tag"><span></span>Security Service</div>
+            <div class="sh-tag"><span></span>Our Program</div>
             <h1 class="sh-title"><?= htmlspecialchars($service['title']) ?></h1>
             <?php if (!empty($service['summary'])): ?>
                 <p class="sh-lead"><?= htmlspecialchars($service['summary']) ?></p>
@@ -33,7 +33,7 @@
     <?php if (count($images) > 1): ?>
         <div class="mt-5 sd-gallery-section">
             <div class="text-center mb-4 sd-gallery-head">
-                <h3>Service Gallery</h3>
+                <h3>Program Gallery</h3>
             </div>
             <div class="row g-4">
                 <?php foreach ($images as $image): ?>
@@ -53,10 +53,15 @@
 
     <!-- Call To Action -->
     <div class="sd-cta mt-5">
-        <h3>Need This Service?</h3>
-        <p>Contact SHASTA Company Limited today for professional security solutions tailored to your needs.</p>
-        <a href="<?= url('quote') ?>" class="sd-cta-btn">
-            Request a Free Quote <i class="fa fa-arrow-right"></i>
+        <h3>Join Us in Empowering Girls and Women</h3>
+        <p>
+            Together, we can ensure that every girl and woman has access to
+            health information, menstrual hygiene support, mentorship,
+            and the opportunities they need to thrive.
+            One girl, one community at a time.
+        </p>
+        <a href="<?= url('contact') ?>" class="sd-cta-btn">
+            Get Involved <i class="fa fa-arrow-right"></i>
         </a>
     </div>
 
@@ -64,8 +69,8 @@
     <?php if (!empty($relatedServices)): ?>
         <div class="rel-section">
             <div class="rel-head">
-                <h3>Explore Other Services</h3>
-                <a href="<?= url('services') ?>">View All Services <i class="fa fa-arrow-right"></i></a>
+                <h3>Explore Other Programs</h3>
+                <a href="<?= url('services') ?>">View All Programs <i class="fa fa-arrow-right"></i></a>
             </div>
             <div class="rel-grid">
                 <?php foreach ($relatedServices as $related): ?>

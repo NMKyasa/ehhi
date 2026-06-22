@@ -8,11 +8,12 @@
                     <div class="ct-tag">
                         <span></span><em>Contact Us</em>
                     </div>
-                    <h1 class="display-5 mb-4 ct-title">Let's Talk Security</h1>
+                    <h1 class="display-5 mb-4 ct-title">Let's Create Healthier Futures Together</h1>
                     <p class="mb-4 ct-text">
-                        At Shasta Company Limited, we are committed to providing reliable and professional
-                        security solutions. Contact us today to discuss your requirements, request additional
-                        information, or speak with a member of our team.
+                        Whether you would like to partner with us, volunteer, support our programmes,
+                        request more information, or simply learn more about our work, we'd love to hear
+                        from you. Together, we can ensure that no girl or woman is left behind on her
+                        journey toward health and wellness.
                     </p>
 
                     <div class="ct-info-list">
@@ -59,6 +60,13 @@
                         <?php unset($_SESSION['success']); ?>
                     <?php endif; ?>
 
+                    <h3 class="mb-3">
+                        Send Us a Message
+                    </h3>
+
+                    <p class="mb-4 ct-form-text">
+                        We'd be happy to answer your questions and explore how we can work together.
+                    </p>
                     <form method="POST" action="<?= url('contact') ?>" class="ct-form">
 
                         <input type="hidden" name="_token" value="<?= csrf_token() ?>">

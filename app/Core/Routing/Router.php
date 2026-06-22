@@ -120,7 +120,7 @@ class Router
          * Current request URI
          *
          * Example:
-         * /shasta/public/login
+         * /ehhi/public/login
          */
         $requestUri =
             parse_url(
@@ -134,33 +134,21 @@ class Router
          * Remove base project path
          *
          * Example:
-         * /shasta/public/login
+         * /ehhi/public/login
          *
          * becomes:
          * /login
          */
-        $basePath =
-            '/shasta/public';
+        $scriptName = dirname($_SERVER['SCRIPT_NAME']);
 
-        /**
-         * Remove base path
-         */
         if (
-
-            str_starts_with(
-                $requestUri,
-                $basePath
-            )
-
+            $scriptName !== '/'
+            && str_starts_with($requestUri, $scriptName)
         ) {
-
-            $requestUri =
-                substr(
-
-                    $requestUri,
-
-                    strlen($basePath)
-                );
+            $requestUri = substr(
+                $requestUri,
+                strlen($scriptName)
+            );
         }
 
         /**

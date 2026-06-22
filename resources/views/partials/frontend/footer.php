@@ -174,6 +174,13 @@
 
                     <a
                         class="btn btn-link"
+                        href="<?= url('home') ?>"
+                    >
+                        Home
+                    </a>
+
+                    <a
+                        class="btn btn-link"
                         href="<?= url('about') ?>"
                     >
                         About Us
@@ -183,21 +190,7 @@
                         class="btn btn-link"
                         href="<?= url('services') ?>"
                     >
-                        Services
-                    </a>
-
-                    <a
-                        class="btn btn-link"
-                        href="<?= url('projects') ?>"
-                    >
-                        Projects
-                    </a>
-
-                    <a
-                        class="btn btn-link"
-                        href="<?= url('quote') ?>"
-                    >
-                        Request Quote
+                        What We Do
                     </a>
 
                     <a

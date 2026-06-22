@@ -7,7 +7,7 @@
             <div class="col-sm-6">
 
                 <h1 class="m-0">
-                    Services
+                    Programs
                 </h1>
 
             </div>
@@ -17,7 +17,7 @@
                 <a href="<?= url('dashboard/services/create') ?>"
                    class="btn btn-primary">
 
-                    Add Service
+                    Add Program
 
                 </a>
 

@@ -43,7 +43,7 @@ function verify_csrf(): void
  */
 function asset($path)
 {
-    return '/shasta/public/' . ltrim($path, '/');
+    return '/ehhi/public/' . ltrim($path, '/');
 }
 
 /**
@@ -51,7 +51,7 @@ function asset($path)
  */
 function url($path = '')
 {
-    return '/shasta/public/' . ltrim($path, '/');
+    return '/ehhi/public/' . ltrim($path, '/');
 }
 
 /**

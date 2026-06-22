@@ -50,7 +50,7 @@
 
                         <h3><?= $statistics['services'] ?></h3>
 
-                        <p>Services</p>
+                        <p>What we do</p>
 
                     </div>
 
@@ -72,7 +72,7 @@
             <?php endif; ?>
 
             <!-- Projects -->
-            <?php if (isset($statistics['projects'])): ?>
+            <!-- <?php if (isset($statistics['projects'])): ?>
             <div class="col-lg-3 col-6">
 
                 <div class="small-box bg-success">
@@ -100,7 +100,7 @@
                 </div>
 
             </div>
-            <?php endif; ?>
+            <?php endif; ?> -->
 
             <!-- Team Members -->
             <?php if (isset($statistics['team_members'])): ?>
@@ -165,7 +165,7 @@
             <?php endif; ?>
 
             <!-- Pricing Plans -->
-            <?php if (isset($statistics['pricing_items'])): ?>
+            <!-- <?php if (isset($statistics['pricing_items'])): ?>
             <div class="col-lg-3 col-6">
 
                 <div class="small-box bg-primary">
@@ -193,7 +193,7 @@
                 </div>
 
             </div>
-            <?php endif; ?>
+            <?php endif; ?> -->
 
             <!-- Categories -->
             <?php if (isset($statistics['categories'])): ?>
@@ -300,7 +300,7 @@
     <div class="p-3">
 
         <h5>
-            SHASTA CMS
+            EHHI CMS
         </h5>
 
         <p>
