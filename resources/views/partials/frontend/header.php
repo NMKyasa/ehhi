@@ -114,7 +114,7 @@
 
     </a>
 
-    <!-- <button
+    <button
         type="button"
         class="navbar-toggler"
         data-bs-toggle="collapse"
@@ -123,7 +123,7 @@
 
         <span class="navbar-toggler-icon"></span>
 
-    </button> -->
+    </button>
 
     <div
         class="collapse navbar-collapse"

@@ -305,3 +305,52 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.style.overflow = '';
     }
 });
+
+// SERVICES CAROUSEL JS
+$(document).ready(function () {
+    $('.services-carousel').owlCarousel({
+        loop: true,
+        margin: 22,
+        nav: true,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        smartSpeed: 600,
+        navText: [
+            '<i class="fa fa-arrow-left"></i>',
+            '<i class="fa fa-arrow-right"></i>'
+        ],
+        responsive: {
+            0:   { items: 1 },
+            600: { items: 2 },
+            992: { items: 3 }
+        }
+    });
+});
+
+// TEAM JS NEXT AND PREV BUTTONS
+$(document).ready(function () {
+
+    $('.team-carousel').owlCarousel({
+        loop: true,
+        margin: 22,
+        nav: true,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        smartSpeed: 600,
+        navText: [
+            '<i class="fa fa-arrow-left"></i>',
+            '<i class="fa fa-arrow-right"></i>'
+        ],
+        responsive: {
+            0:   { items: 1 },
+            576: { items: 2 },
+            992: { items: 3 },
+            1200: { items: 4 }
+        }
+    });
+
+});

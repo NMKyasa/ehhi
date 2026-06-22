@@ -107,10 +107,10 @@ class ContactController extends BaseController
 
                 env('MAIL_USERNAME'),
 
-                'SHASTA CO. LTD Contact Inquiry',
+                'EHHI Contact Inquiry',
 
                 "
-                <h2>SHASTA CO. LTD Contact Inquiry</h2>
+                <h2>EHHI Contact Inquiry</h2>
 
                 <p><strong>Name:</strong> {$name}</p>
 
@@ -132,7 +132,7 @@ class ContactController extends BaseController
         }
 
         $_SESSION['success'] =
-            'Thank you for contacting Shasta Company Limited. Your inquiry has been received 
+            'Thank you for contacting Empower Her Health Initiative (EHHI). Your inquiry has been received 
             successfully and one of our representatives will get back to you shortly.';
 
         header(
