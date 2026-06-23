@@ -9,7 +9,7 @@
           content="width=device-width, initial-scale=1">
 
     <title>
-        SHASTA Admin
+        EHHI Admin
     </title>
 
     <!-- Google Font -->
