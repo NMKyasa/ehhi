@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="<?= asset('assets/auth/img/favicon-32x32.png') ?>" type="image/x-icon">
     
     <!-- Style new CSS -->
-    <link href="/ehhi/public/assets/auth/css/style_new.css" rel="stylesheet">
+    <link href="/assets/auth/css/style_new.css" rel="stylesheet">
     
 </head>
 <body>

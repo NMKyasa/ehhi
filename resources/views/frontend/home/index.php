@@ -161,7 +161,7 @@
                     <div class="position-relative h-100 ab-img-wrap">
                         <img
                             class="position-absolute img-fluid w-100 h-100 ab-main-img"
-                            src="/ehhi/public/<?= htmlspecialchars($aboutImage['file_path'] ?? 'assets/frontend/img/family_planning_awareness2.jpeg') ?>"
+                            src="/<?= htmlspecialchars($aboutImage['file_path'] ?? 'assets/frontend/img/family_planning_awareness2.jpeg') ?>"
                             style="object-fit: cover;"
                             alt="<?= htmlspecialchars($settings['about_title'] ?? 'About Us') ?>"
                         >

@@ -120,7 +120,7 @@ class Router
          * Current request URI
          *
          * Example:
-         * /ehhi/public/login
+         * /login
          */
         $requestUri =
             parse_url(
@@ -134,7 +134,7 @@ class Router
          * Remove base project path
          *
          * Example:
-         * /ehhi/public/login
+         * /login
          *
          * becomes:
          * /login
